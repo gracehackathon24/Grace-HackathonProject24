@@ -1,0 +1,83 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: century gothic;
+  box-sizing: border-box;
+  background-color: #000000;
+  color:#ffffff
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 200px;
+}
+.logo{
+  width: 300px;
+}
+.nav-links{
+  padding: 28px 0;
+
+}
+.nav-links li{
+  display: inline-block;
+  margin: 0 15px;
+}
+.nav-links li a{
+  text-decoration: none;
+  color: #ffffff;
+  padding: 5px 0;
+  position: relative;
+}
+.nav-links li a::after{
+  content: '';
+  background: #ff0505;
+  width: 0;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 0.5s;
+}
+.nav-links li a:hover::after{
+  width: 100%;
+}
+.clear {
+  clear:both;
+}
+#project-container, #index {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 600px;
+}
+.project {
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000000;
+  padding-top: 10px;
+
+}
+
+a {
+  color: #ffffff;
+}
+.title{
+  margin-bottom: 20px
+  padding-bottom: 10px;
+  border-bottom: 1px solid #000000;
+  padding-top: 10px;
+  text-align: center;
+  
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+}
