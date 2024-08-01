@@ -56,7 +56,7 @@ Recommended citation for this dataset: N/A
 
 DATA & FILE OVERVIEW
 
-File List: index.html (contains the English page), spanish.html (contains the Spanish page), img (contains images)
+File List: index.html (contains the English page), spanish.html (contains the Spanish page), style.css (contains instructions for styles), img (contains images)
 Relationship between files, if important: 
 
 Additional related data collected that was not included in the current data package: N/A
